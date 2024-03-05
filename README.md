@@ -10,3 +10,7 @@ https://7daysofcode.io/
 ## Código do dia 03
 
 ![terceiroDia](https://github.com/tuliusalves/7DaysOfCode/blob/main/screens/Dia03.PNG)
+
+## Código do dia 04
+
+![quartoDia](https://github.com/tuliusalves/7DaysOfCode/blob/main/screens/Dia04.PNG)
