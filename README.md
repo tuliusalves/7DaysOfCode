@@ -18,3 +18,9 @@ https://7daysofcode.io/
 ## Código do dia 05
 ![quintoDia_parteA](https://github.com/tuliusalves/7DaysOfCode/blob/main/screens/dia05_A.PNG)
 ![quintoDia_parteB](https://github.com/tuliusalves/7DaysOfCode/blob/main/screens/dia05_B.PNG)
+
+## Código do dia 06
+<p> O problema do dia 06 é parecido com o do dia 05. Porém nesse código exite a funcionalidade</p>
+<p> de remover items da lista de compras</p>
+
+![sextoDia](https://github.com/tuliusalves/7DaysOfCode/blob/main/screens/Dia06.PNG)
