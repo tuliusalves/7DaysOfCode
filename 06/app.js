@@ -37,36 +37,59 @@ function listaDeCompras() {
 listaDeCompras();
 
 const removerItem = (frutas, laticinios, congelados, doces) => {
+    let existeFrutas;
+    let existeLaticinios;
+    let existeCongelados;
+    let existeDoces;
 
     do {
+       
         resposta = prompt(`Você deseja remover comida da sua lista de compra?`).toLowerCase();
         if (resposta == 'sim') {
             let itemExcluir = prompt(`Digite qual item deseja excluir :\n Frutas: ${frutas} \n Laticínios: ${laticinios} \n Congelados: ${congelados} \n Doces: ${doces}`)
                 .toLocaleLowerCase();
             for (let i = 0; i < frutas.length; i++) {
+               
                 if (frutas[i] == itemExcluir) {
                     frutas.splice(i, 1);
                     alert(`Lista de compras:\n Frutas: ${frutas} \n Laticínios: ${laticinios} \n Congelados: ${congelados} \n Doces: ${doces}`);
+                }else{
+                 existeFrutas = frutas.includes(itemExcluir);
+                 console.log(existeFrutas);
                 }
             }
             for (let i = 0; i < laticinios.length; i++) {
                 if (laticinios[i] == itemExcluir) {
                     laticinios.splice(i, 1);
                     alert(`Lista de compras:\n Frutas: ${frutas} \n Laticínios: ${laticinios} \n Congelados: ${congelados} \n Doces: ${doces}`);
+                }else{
+                existeLaticinios = laticinios.includes(itemExcluir);
+                console.log(existeLaticinios);
                 }
             }
             for (let i = 0; i < congelados.length; i++) {
                 if (congelados[i] == itemExcluir) {
                     congelados.splice(i, 1);
                     alert(`Lista de compras:\n Frutas: ${frutas} \n Laticínios: ${laticinios} \n Congelados: ${congelados} \n Doces: ${doces}`);
+                }else{
+                 existeCongelados = congelados.includes(itemExcluir) ;
+                 console.log(existeCongelados);
                 }
             }
             for (let i = 0; i < doces.length; i++) {
                 if (doces[i] == itemExcluir) {
                     doces.splice(i, 1);
                     alert(`Lista de compras:\n Frutas: ${frutas} \n Laticínios: ${laticinios} \n Congelados: ${congelados} \n Doces: ${doces}`);
+                }else{
+                 existeDoces = doces.includes(itemExcluir);
+                 console.log(existeDoces);
                 }
             }
+
+            if(existeFrutas==false && existeLaticinios==false && existeCongelados==false && existeDoces==false){
+                alert(`Item não encontrado na lista`);
+            }
+
         }
 
     } while (resposta == 'sim');
