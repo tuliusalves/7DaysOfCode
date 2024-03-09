@@ -24,3 +24,8 @@ https://7daysofcode.io/
 <p> de remover items da lista de compras</p>
 
 ![sextoDia](https://github.com/tuliusalves/7DaysOfCode/blob/main/screens/Dia06.PNG)
+
+## Código do dia 07
+
+![setimoDia_parteA](https://github.com/tuliusalves/7DaysOfCode/blob/main/screens/Dia07_A.PNG)
+![setimoDia_parteB](https://github.com/tuliusalves/7DaysOfCode/blob/main/screens/Dia07_B.PNG)
